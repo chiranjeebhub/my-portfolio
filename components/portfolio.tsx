@@ -3,7 +3,6 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
 import {
   Tooltip,
   TooltipContent,
@@ -17,21 +16,17 @@ import {
   FileText,
   ExternalLink,
   FileCode,
-  Cloud,
   ImageIcon,
-  LayoutDashboard,
   GitFork,
   Heart,
   Crosshair,
   Brain,
-  Building2,
   ShieldCheck,
   Shield,
   MapPin,
   Calendar,
   Briefcase,
   GraduationCap,
-  Award,
   ChevronDown,
   ChevronUp,
   ThumbsUp,
@@ -369,11 +364,11 @@ export default function MyPortfolio() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-lg">
-                    I'm a passionate full stack developer with 5 years of
+                    I am a passionate full stack developer with 5 years of
                     experience in building web applications. I specialize in
-                    React, NextJS, Node.js, AI and cloud technologies. I'm
+                    React, NextJS, Node.js, AI and cloud technologies. I am
                     always eager to learn new technologies and take on
-                    challenging projects that push the boundaries of what's
+                    challenging projects that push the boundaries of whats
                     possible on the web.
                   </p>
                 </CardContent>
